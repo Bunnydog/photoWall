@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    height: 800px;
+    background-image: url("../img/background.jpg");
+    background-size: contain;
+}
+
+
+img{
+    box-sizing: content-box;
+    position: absolute;
+    height: 300px;
+    border: 5px solid #fff;
+    transition: 1s;
+}
+
+
+.photo1{
+    height: 50%;
+    top: 50px;
+    left: 200px;
+    transform: rotate(-10deg);
+ 
+}
+
+.photo2{
+    top: 50px;
+    left: 600px;
+}
+
+.photo3{
+    top: 50px;
+    left: 1000px;
+    transform: skew(-15deg);
+}
+
+.photo4{
+    height: 330px;
+    top: 400px;
+    left: 600px;
+    transform: translateX(-150px);
+}
+
+.photo5{
+    top: 400px;
+    left: 900px;
+}
+
+
+img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 5px 10px grey;
+    z-index: 999;
+}
